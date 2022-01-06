@@ -4,7 +4,8 @@
   "description": "A space to test out playwright",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "playwright test",
+    "debug": "PWDEBUG=1 npm run test"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/northern-tester/playwright-playground/issues"
   },
-  "homepage": "https://github.com/northern-tester/playwright-playground#readme"
+  "homepage": "https://github.com/northern-tester/playwright-playground#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.17.1"
+  }
 }
