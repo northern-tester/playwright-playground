@@ -1,0 +1,22 @@
+{
+  "name": "playwright-playground",
+  "version": "1.0.0",
+  "description": "A space to test out playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/northern-tester/playwright-playground.git"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Ash Winter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/northern-tester/playwright-playground/issues"
+  },
+  "homepage": "https://github.com/northern-tester/playwright-playground#readme"
+}
